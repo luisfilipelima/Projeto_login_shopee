@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    
+}
+
+.container .header{
+    width: 100;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .header .imagem-entre{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .header .logo{
+    margin-left: 200px;
+}
+
+
+
+.container .header .logo img{
+    width: 130px;
+     margin: 0 auto;
+}
+
+
+.container .header .entre{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.container .header .entre h3 {
+     margin: 0 auto; 
+     font-weight: 500;
+     font-size: 25px;
+     cursor: pointer;
+
+}
+
+.container .header .ajuda {
+    margin-right: 140px;
+    
+}
+
+.container .header .ajuda a{
+    color: #F94D2F;
+}
+
+.container .main {
+    width: 100%;
+    height: 80vh;
+    background-color: #F94D2F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .main p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.container  .main .imagem-texto-shope{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 300px;
+}
+
+.container .main .imagem-texto-shope p{
+
+    font-size: 25px;
+    margin-left: 100px;
+     
+}
+.container .main .shope-img #branca{
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.container .main .formulario {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 200px;
+    border-radius: 8px; 
+}
+
+.container .main .formulario h2{
+       font-weight: 400;
+       
+}
+
+.container .main .formulario form{
+
+    padding: 20px;
+     
+}
+
+.container .main .formulario .input{
+     margin-top: 5px;
+}
+
+
+.container .main .formulario input {
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    
+}
+
+.container .main .formulario button {
+    width: 100%;
+    border: none;
+    background-color: #F94D2F;
+    padding: 5px 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.container .main .formulario .esqueceu-senha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .main .formulario .esqueceu-senha a{
+     font-size: 12px; }
+
+.container .main .formulario .esqueceu-senha #esqueceu{
+     margin-left: 20px;
+     
+}
+
+.container .main .formulario .esqueceu-senha #sms{
+    margin-right: 20px;
+    
+}
+
+ .container .main .formulario .cadastro{
+     text-align: center;
+     margin-top: 20px;
+ }
+
+.container .main .formulario .cadastro span{ 
+     font-size: 13px;
+     color: rgb(150, 152, 154);
+     
+}
+
+.container .main .formulario .cadastro #laranja{
+    color: #F94D2F;
+    font-size: 15px;
+    font-weight: 500;
+}
+
