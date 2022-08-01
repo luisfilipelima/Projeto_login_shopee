@@ -105,6 +105,7 @@
     background-color: white;
     margin-top: 100px;
     margin-right: 200px;
+    border-radius: 8px;
     
 }
 
@@ -137,7 +138,7 @@
 .container .main .formulario button {
     width: 100%;
     border: none;
-    background-color: aquamarine;
+    background-color: #F94D2F;
     padding: 5px 10px;
     margin-top: 20px;
     color: white;
